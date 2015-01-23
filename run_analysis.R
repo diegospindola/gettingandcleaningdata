@@ -1,4 +1,6 @@
 # File: "run_analysis.R"
+# Author: Diego Spíndola
+# Creation: January, 2015
 # Use: R script for creating a tidy data set from Anguita et al. data.
 # More Info: https://github.com/diegospindola/gettingandcleaningdata
 
@@ -91,8 +93,8 @@ tidyData$activityLabel <- y$activityLabel
 #
 
 #Loading the subjects and binding them to the data set
-subjectsTrain <- read.table("train/subject_train.txt")
-subjectsTest <- read.table("test/subject_test.txt")
+subjectsTrain <- read.table("./train/subject_train.txt")
+subjectsTest <- read.table("./test/subject_test.txt")
 subjects <- rbind(subjectsTrain,subjectsTest)
 tidyData$subject <- subjects$V1
 
@@ -104,3 +106,6 @@ tidyData2 <- summarise_each(groupedTidyData, funs(mean))
 
 #Writing tidy data into text file
 write.table(tidyData2,"tidyData2.txt", row.names = FALSE)
+
+
+
