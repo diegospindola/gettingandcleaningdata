@@ -15,6 +15,7 @@ y_test <- read.table("./test/y_test.txt")
 #Binding training and test sets
 X <- rbind(X_train, X_test)
 y <- rbind(y_train, y_test)
+#Subjects yet to be bound together in step 5
 
 ######################################################
 
