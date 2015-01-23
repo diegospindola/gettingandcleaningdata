@@ -1,3 +1,7 @@
+# File: "run_analysis.R"
+# Use: R script for creating a tidy data set from Anguita et al. data.
+# More Info: https://github.com/diegospindola/gettingandcleaningdata
+
 #
 #
 #step 1 - Merges the training and the test sets to create one data set.
@@ -82,7 +86,7 @@ tidyData$activityLabel <- y$activityLabel
 
 #
 #
-#step 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. (usar o summary talvez?)
+#step 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 #
 #
 

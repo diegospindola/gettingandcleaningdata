@@ -4,7 +4,7 @@ The repository for the Coursera's Getting and Cleaning Data Course Project [1]
 The project requests to make a tidy data set out of the data from the work by Anguita et al. [2]. This work collected measurements from accelerometer and gyroscope from Samsung smartphones tied to 30 subjets performing 6 types of activities.
 
 This repo includes three files:
-* "run_analysis.R" - R script for creating a tidy data set by Anguita et al. data.
+* "run_analysis.R" - R script for creating a tidy data set from Anguita et al. data.
 * "README.md" - file that describes the repository.
 * "CodeBook.md" - file that describes the variables in the tidy data set.
 
