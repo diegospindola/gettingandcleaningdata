@@ -11,7 +11,7 @@ This repo includes three files:
 Additional R library required to run the script:
 * dplyr
 
-#What the script does
+#What does the script do?
 
 The script is run on the data[3] provided by the work by Anguita et al. This zip file should be decompressed and the R working directory set to the folder "UCI HAR Dataset" inside of it.
 
@@ -22,7 +22,7 @@ The activity names used were almost the same as those included in the "activity_
 The script takes the previously selected feature names from file "features.txt" and then changes the names in a series of substitutions, in order to make them more descriptive.
 
 The substitutions are the following:
-* t - <empty string>
+* t - [empty string]
 * f - Frequency (changing the word position)
 * Body - body
 * BodyBody - body
