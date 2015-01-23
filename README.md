@@ -42,8 +42,10 @@ Then the data is summarized using "summarise_each" function[4]. This way, we end
 After that, tidy data set with summarized data has been written to the file using "write.table" command, with row.names parameter set to FALSE, following the instructions in the course project description.
 
 This data set file can be loaded using the command[5]: 
+```
 data <- read.table("tidyData2.txt", header = TRUE)
 View(data)
+```
 
 #Why is the resulting data set tidy?
 
