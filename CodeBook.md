@@ -3,21 +3,10 @@
 There are 68 variables in the tidy data set. The first two variables are the following:  
 
 **"subject"**- the subject which performed the activity (ranging from 1 to 30).  
-**"activityLabel"**- the activity performed. The values are:
-  	* WALKING
-		* WALKING UPSTAIRS
-		* WALKING DOWNSTAIRS
-		* SITTING
-		* STANDING
-		* LAYING
+**"activityLabel"**- the activity performed. The values are:  "WALKING","WALKING UPSTAIRS", "WALKING DOWNSTAIRS", "SITTING", "STANDING" and "LAYING".
  
 
-The last 66 variables included are those mean and standard deviations from the measures by the accelerometer (those which contain "Acceleration" in the name) and by the gyroscope (those which contain "AngularVelocity" in the name) of the phones attached to the Subjects.
-
-
-In addiction to those first two variables, the tidy data set includes those variables described bellow *AS THEIR AVERAGE FOR EACH SUBJECT PERFORMING EACH ACTITIVITY*.
-
-The following data dictionary describes the variables:
+The last 66 variables included are the mean and standard deviations from the measures by the accelerometer (those which contain "Acceleration" in the name) and by the gyroscope (those which contain "AngularVelocity" in the name) of the phones attached to the Subjects. In the tidy data set, those measures are represented *AS THEIR AVERAGE FOR EACH SUBJECT PERFORMING EACH ACTITIVITY*. They are described bellow:
  
 **"bodyAccelerationMeanForXAxis"**- body acceleration mean for the X-axis  
 **"bodyAccelerationMeanForYAxis"**- body acceleration mean for the Y-axis  
